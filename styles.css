@@ -64,6 +64,13 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+.interest-img {
+    display: block;
+    margin-top: 20px;
+    border: 3px solid #007BFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
 
 .profile-details {
     text-align: center;
