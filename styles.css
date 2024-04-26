@@ -26,6 +26,19 @@ main h2 {
     text-align: center;
 }
 
+main2 {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto; /* Center the main content horizontally */
+    text-align: center; /* Center the content inside the main */
+}
+
+/* Apply text-align: center to the headings inside the centered main content */
+main2 h2 {
+    text-align: center;
+}
+
+
 section {
     margin-bottom: 30px;
     text-align: center;
