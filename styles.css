@@ -107,6 +107,27 @@ p {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* Remove existing centering for the main element */
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+/* New rule to center specific sections */
+section#profile,
+section#interests,
+section#contact {
+    margin: 0 auto 30px; /* Center the sections horizontally and add bottom margin */
+    width: 80%; /* Adjust width as needed */
+}
+
+/* Apply text-align: center to the headings inside the centered sections */
+section#profile h2,
+section#interests h2,
+section#contact h2 {
+    text-align: center;
+}
+
 
 
 
