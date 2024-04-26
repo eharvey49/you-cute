@@ -55,7 +55,7 @@ p {
     text-align: center;
 }
 footer {
-    color: #fff;
+    font-family: Arial, sans-serif;
     padding: 20px;
     display: flex; /* Use flexbox */
     justify-content: space-between; /* Distribute items horizontally */
