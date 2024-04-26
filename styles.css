@@ -3,18 +3,24 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 nav {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    margin: 0;
 }
 
 nav ul li {
@@ -39,12 +45,11 @@ header {
     color: #fff;
     text-align: center;
     padding: 50px 0;
-    margin: 0 10px; /* Added margin */
 }
 
 main {
     padding: 20px;
-    margin: 0 10px; /* Added margin */
+    width: 80%; /* Adjust as needed */
 }
 
 section {
@@ -64,6 +69,7 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+
 .interest-img {
     display: block;
     margin-top: 20px;
@@ -98,6 +104,7 @@ p {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 
   
