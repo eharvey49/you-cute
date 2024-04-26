@@ -3,25 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 nav {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    margin: 0;
 }
 
 nav ul li {
@@ -46,13 +39,12 @@ header {
     color: #fff;
     text-align: center;
     padding: 50px 0;
-    width: 100%;
+    margin: 0 10px; /* Added margin */
 }
 
 main {
     padding: 20px;
-    width: 100%;
-    text-align: center; /* Center main content */
+    margin: 0 10px; /* Added margin */
 }
 
 section {
@@ -72,10 +64,9 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
-
 .interest-img {
     display: block;
-    margin: 0 auto 20px; /* Center image horizontally */
+    margin-top: 20px;
     border: 3px solid #007BFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -106,26 +97,6 @@ p {
 .pdf-icons img {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-/* Remove existing centering for the main element */
-main {
-    padding: 20px;
-    width: 100%;
-}
-
-/* New rule to center specific sections */
-section#profile,
-section#interests,
-section#contact {
-    margin: 0 auto 30px; /* Center the sections horizontally and add bottom margin */
-    width: 80%; /* Adjust width as needed */
-}
-
-/* Apply text-align: center to the headings inside the centered sections */
-section#profile h2,
-section#interests h2,
-section#contact h2 {
-    text-align: center;
 }
 
 
