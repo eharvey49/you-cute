@@ -55,7 +55,7 @@ p {
     text-align: center;
 }
 footer {
-    background-color: DodgerBlue;
+    background-color: DimGrey;
     color: White;
     padding: 20px;
     display: flex; /* Use flexbox */
