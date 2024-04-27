@@ -55,8 +55,8 @@ p {
     text-align: center;
 }
 footer {
-    background-color: Beige;
-    color: black;
+    background-color: Blue;
+    color: white;
     padding: 20px;
     display: flex; /* Use flexbox */
     justify-content: space-between; /* Distribute items horizontally */
